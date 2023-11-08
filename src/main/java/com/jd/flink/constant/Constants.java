@@ -5,20 +5,20 @@ package com.jd.flink.constant;
 public class Constants {
 
     //kafka
-    public static String CONSUMER_TOPIC = "log-client-cdnlive-bytedance";
-    public static String PRODUCER_TOPIC = "cdncld_reqstat_result_test";
+    public static String CONSUMER_TOPIC = "";
+    public static String PRODUCER_TOPIC = "";
 
-    public static String USERNAME = "deeplog.jd.com";
+    public static String USERNAME = "";
 
-    public static String CONSUMER_CLIENTID = "C23359c66";
-    public static String CONSUMER_PASSWORD = "wDWZEaUu9o21T1fG";
+    public static String CONSUMER_CLIENTID = "";
+    public static String CONSUMER_PASSWORD = "";
 
-    public static String PRODUCER_CLIENTID = "Pc2faf958";
-    public static String PRODUCER_PASSWORD = "FIiC8BOCks7mbwjJ";
+    public static String PRODUCER_CLIENTID = "";
+    public static String PRODUCER_PASSWORD = "";
 
 
     //checkpoint
-    public static final String HDFS_CHECKPOINT_PATH = "hdfs://ns-cdn/user/flink/checkpoint/";
+    public static final String HDFS_CHECKPOINT_PATH = "";
 
     //log
     public static String LOG_END = "END";
